@@ -1,0 +1,15 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset & fitur (terlalu besar, jangan di-commit)
+data/*
+!data/.gitkeep
