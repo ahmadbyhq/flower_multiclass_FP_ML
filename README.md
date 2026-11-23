@@ -10,15 +10,30 @@ Kelompok 10:
 Oxford Flower 17 Categories (Kaggle):
 https://www.kaggle.com/datasets/cantonioupao/oxford-flower-17categories-labelled
 
-Download dewe, terus ekstrak ke folder `data/`.
+1. Unduh dataset dari link di atas, lalu ekstrak file zip-nya.
+2. Salin **folder-folder kelas** (`bluebell`, `buttercup`, `cowslip`, dst.) langsung ke dalam folder `data/`.
+3. Hasil akhirnya harus seperti ini:
+
+```
+data/
+├── .gitkeep
+├── bluebell/
+│   ├── image_0241.jpg
+│   └── ...
+├── buttercup/
+├── cowslip/
+├── ...
+└── windflower/
 
 ## Setup
 ```bash
 git clone <url-repo>
 cd flower-classification
 
-python -m venv .venv
-.venv\Scripts\activate
+Gunakan versi **Python 3.12**
+
+python -m venv .venv atau py -3.12 -m venv .venv
+.venv\Scripts\activate atau .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
 nbstripout --install
