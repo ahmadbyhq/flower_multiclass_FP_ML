@@ -10,6 +10,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Dataset & fitur (terlalu besar, jangan di-commit)
+# Dataset
 data/*
 !data/.gitkeep
+
+results/*
